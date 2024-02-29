@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultas</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="justify-content-center">
+        <h1>FORMULARIO</h1>
+    </div>
+
+    <div>
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4">
+                <label for="text" name="TxtNombre" class="form-label" id="text">Nombre</label>
+                <input type="text" class="form-control" id="text" placeholder="Tu Nombre"><br>
+            </div>
+            <div class="col-md-4">
+                <label for="text" name="TxtApellidos" class="form-label" id="text">Apellidos</label>
+                <input type="text" class="form-control" id="text" placeholder="Tu Apellido"><br>
+            </div>
+            <div class="col-md-4">
+                <label for="text" class="form-label">Tipo de identifación</label><br>
+
+                <input type="radio" name="option1" id="radio6" checked />
+                <label for="radio6">Tarjeta de identidad</label><br />
+
+                <input type="radio" name="option1" id="radio6" checked />
+                <label for="radio6">Cedula de ciudadania</label><br />
+                
+                <input type="radio" name="option1" id="radio6" checked />
+                <label for="radio6">Pasaporte extranjero</label><br />
+            </div>
+            <div class="col-md-4">
+                <label for="text" name="TxtTipoidentifación" class="form-label" id="text">Identifación</label>
+                <input type="tel" class="form-control" id="text" placeholder="Identifación"><br>
+            </div>
+            <div class="col-md-4">
+                <label for="email" name="TxtEmail" class="form-label" id="email">Correo</label>
+                <input type="email" class="form-control" id="email" placeholder="Correo"><br>
+            </div>
+            <div class="row col-12">
+                <button class="btn btn-primary" type="submit">Guardar</button>
+            </div><br>
+        </form>
+    </div>
+
+    <hr size="8px" color="black" />
+
+    <div class="justify-content-center">
+        <h1>PREGUNTAS DE DIAGNOSTICO</h1><BR></BR>
+    </div>
+
+    <div>
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="row col-md-4">
+                <p><b>1. Pregunta</b></p>
+                <p>Rango de Movimiento: ¿Experimenta usted alguna restricción en su rango de movimiento?</p>
+                <div>
+                    <input type="radio" name="option" id="radio1" checked />
+                    <label for="radio1">Si</label><br />
+                    <input type="radio" name="option" id="radio1" checked />
+                    <label for="radio1">No</label><br />
+                </div>
+            </div><br>
+            <div class="row col-md-4">
+                <p><b>2. Pregunta</b></p>
+                <p>Dolor Muscular: ¿Siente dolor muscular de forma persistente?</p>
+                <div>
+                    <input type="radio" name="option2" id="radio2" checked />
+                    <label for="radio1">Si</label><br />
+                    <input type="radio" name="option2" id="radio2" checked />
+                    <label for="radio2">No</label><br />
+                </div>
+            </div>
+        </form>
+     </div><br>
+    <div class="row col-md-4">
+        <p><b>3. Pregunta</b></p>
+        <p>Debilidad Muscular: ¿Ha notado una disminución en su fuerza muscular recientemente?</p>
+        <div>
+            <input type="radio" name="option3" id="radio3" checked />
+            <label for="radio1">Si</label><br />
+            <input type="radio" name="option3" id="radio3" checked />
+            <label for="radio2">No</label><br />
+        </div>
+    </div><br>
+
+    <div class="row col-md-4">
+        <p><b>4. Pregunta</b></p>
+        <p>Espasmos Musculares: ¿Experimenta usted espasmos musculares involuntarios?</p>
+        <div>
+            <input type="radio" name="option4" id="radio4" checked />
+            <label for="radio1">Si</label><br />
+            <input type="radio" name="option4" id="radio4" checked />
+            <label for="radio2">No</label><br />
+        </div>
+    </div><br>
+
+    <div class="row col-md-4">
+        <p><b>5. Pregunta</b></p>
+        <p>Fatiga Muscular: ¿Se siente fatigado fácilmente después de actividades físicas normales?</p>
+        <div>
+            <input type="radio" name="option5" id="radio5" checked />
+            <label for="radio1">Si</label><br />
+            <input type="radio" name="option5" id="radio5" checked />
+            <label for="radio2">No</label><br />
+        </div>
+        </div><br>
+        <div class="row col-12">
+        <button class="btn btn-primary" type="submit">Guardar</button>
+    </div><br>
+
+    <script src="js/bootstrap.min.js"></script>
+    </div>
+</body>
+
+</html>
